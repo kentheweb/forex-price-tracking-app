@@ -5,9 +5,23 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    {% if title %}
+    <title>{{title}}</title>
+    {%else%}
+    <title>trading algor</title>
+    {% endif %}
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="{{url_for('users.home')}}">Home</a></li>
+            <li><a href="">Trends</a></li>
+            <li><a href="">Market</a></li>
+            <li><a href="">Patterns</a></li>
+            <li><a href="{{url_for('users.about')}}">About</a></li>
+        </ul>
+    </nav>
     {%block body%}
     {%endblock body%}
 </body>

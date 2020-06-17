@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(120deg, orange, maroon);
+}
+
+nav {
+    min-height: 20vh;
+    background-color: wheat;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+    padding-top: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+section{
+    height: 30vh;
+
+}
+
+.info{
+    text-transform: uppercase;
+}
+.btn-mkt{
+    position: absolute;
+    border-style: none;
+    text-decoration:none;
+    background-color: lightgreen;
+    padding: 10px;
+    color: black;
+    left: 60%;
+    margin-top: 40px;
+    width: 30%;
+    text-align: center;
+}
+.section-three p{
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
