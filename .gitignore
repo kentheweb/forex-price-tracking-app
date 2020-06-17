@@ -1,0 +1,3 @@
+flasky/
+__pycache__/
+*.env
