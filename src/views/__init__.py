@@ -28,3 +28,23 @@ def register_api():
 
     else:
         pass
+
+
+@home_blueprint.route('/blog')
+def blog():
+    return render_template('other/blog.html', title='blog')
+
+
+@home_blueprint.route('/register')
+def register():
+    return render_template('other/blog.html', title='register')
+
+
+@home_blueprint.route('/login')
+def login():
+    return render_template('other/blog.html', title='login')
+
+
+@home_blueprint.route('/logout')
+def logout():
+    return render_template('other/blog.html', title='logout')

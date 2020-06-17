@@ -2,18 +2,28 @@
 
 {% block body%}
     <section class="section-one">
-        <h4 class="info">this is the about route</h4>
+        <div class="card-one">
+            <a href=""><span class="fas fas-paper-plane"></span>register for an account</a>
+        </div>
+        <div class="card-two">
+            <a href="">invite friends to join the site</a>
+        </div>
+        <div class="card-three">
+        <a href="">enjoy our free market predictions</a>
+        </div>
     </section>
     <section class="section-two">
         <h4 class="info">welcome to the best trading site</h4>
     </section>
     <section class="section-three">
-        <h4 class="info">enjoy our free api</h4>
-        <p>
+        <h1 class="info">enjoy our free api</h1>
+        <div class="description">
+            <p>
             Register up for our free api and get the best out of it.
             You can also subscribe for the email services to be asured of continous flow
             of information to your account
         </p>
         <a href="{{url_for('users.api')}}" class="btn-mkt">Get Started</a>
+        </div>
     </section>
 {% endblock body%}

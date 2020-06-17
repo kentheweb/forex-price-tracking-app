@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: san-serif;
+
 }
+
 body{
     background: linear-gradient(120deg, orange, maroon);
 }
@@ -28,13 +31,23 @@ nav ul li a{
 }
 
 section{
-    height: 30vh;
+    height: 60vh;
 
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .info{
     text-transform: uppercase;
 }
+
+.description{
+    display: flex;
+}
+
 .btn-mkt{
     position: absolute;
     border-style: none;
@@ -43,9 +56,9 @@ section{
     padding: 10px;
     color: black;
     left: 60%;
-    margin-top: 40px;
-    width: 30%;
+    width: 20%;
     text-align: center;
+    outline: none;
 }
 .section-three p{
     font-size: 20px;
@@ -53,4 +66,55 @@ section{
     width: 50%;
     margin-left: 30px;
     text-transform: capitalize;
+}
+
+.card-one{
+    width: 20%;
+}
+
+.card-two{
+    width: 20%;
+}
+
+.card-three{
+    width: 20%;
+}
+
+.card-three a{
+    border-style: none;
+    text-decoration:none;
+    background-color: #e6e8e7;
+    padding: 10px 2px;
+    color: black;
+    text-align: center;
+    outline: none;
+    position: absolute;
+    top: 60vh;
+    margin-left: 27px;
+}
+
+.card-two a{
+    border-style: none;
+    text-decoration:none;
+    background-color: #00ff95;
+    padding: 10px 2px;
+    color: black;
+    text-align: center;
+    outline: none;
+    position: absolute;
+    top: 60vh;
+    margin-left: 27px;
+}
+
+.card-one a{
+    border-style: none;
+    text-decoration:none;
+    background-color: #f7bc31;
+    padding: 10px 2px;
+    color: black;
+    text-align: center;
+    outline: none;
+    position: absolute;
+    top: 60vh;
+    margin-left: 27px;
 }
