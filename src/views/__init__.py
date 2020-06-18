@@ -37,14 +37,14 @@ def blog():
 
 @home_blueprint.route('/register')
 def register():
-    return render_template('other/blog.html', title='register')
+    return render_template('other/register.html', title='register')
 
 
 @home_blueprint.route('/login')
 def login():
-    return render_template('other/blog.html', title='login')
+    return render_template('other/login.html', title='login')
 
 
 @home_blueprint.route('/logout')
 def logout():
-    return render_template('other/blog.html', title='logout')
+    return 'you are logged out'
